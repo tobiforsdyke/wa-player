@@ -1,2 +1,2 @@
 # waPlayer
-Test YouTube website clone
+Test YouTube clone
