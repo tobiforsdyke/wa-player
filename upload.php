@@ -1,11 +1,11 @@
 <?php
 require_once('includes/header.php');
-require_once('includes/classes/videoDetailsFormProvider.php');
+require_once('includes/classes/VideoDetailsFormProvider.php');
 ?>
 
 <div class="column">
     <?php
-    $formProvider = new videoDetailsFormProvider($con);
+    $formProvider = new VideoDetailsFormProvider($con);
     echo $formProvider->createUploadForm();
     ?>
 </div>
